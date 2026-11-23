@@ -1,0 +1,19 @@
+# secrets
+.env
+.streamlit/secrets.toml
+
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# regenerable data: re-create with scripts/scrap.py (see README)
+data/raw/
+data/processed/clean_data.csv
+
+# vector index: built automatically from data/processed/books_docs.jsonl (see README).
+# To commit it instead, remove this line and track books_db/ with Git LFS
+# (chroma.sqlite3 is ~190 MB, above GitHub's 100 MB per-file limit).
+books_db/

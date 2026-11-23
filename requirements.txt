@@ -1,0 +1,13 @@
+# Runtime dependencies for the Streamlit app (what Streamlit Cloud installs).
+streamlit
+pandas
+requests
+beautifulsoup4
+python-dotenv
+langchain-core
+langchain-chroma
+langchain-huggingface
+langchain-groq
+sentence-transformers
+rank-bm25
+chromadb
