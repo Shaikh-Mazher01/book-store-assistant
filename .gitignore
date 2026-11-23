@@ -2,6 +2,7 @@
 .env
 
 # python
+.github
 .venv/
 __pycache__/
 *.pyc
