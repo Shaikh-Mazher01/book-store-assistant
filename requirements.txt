@@ -3,6 +3,7 @@ streamlit
 pandas
 requests
 beautifulsoup4
+pytest
 python-dotenv
 langchain-core
 langchain-chroma
